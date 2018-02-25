@@ -1,0 +1,17 @@
+
+.red{
+  color: red;
+}
+p{
+  font-size: 25px;
+}
+#blue{
+  color: blue;
+}
+input[type=submit]{
+  color: yellow;
+}
+/* p:hover {....} hover: di chuột qua; active: ấn vào -> pseudo class(state) */
+/* , -> and selector */
+ /* space -> child slector */
+ /* > -> direct childe selector */

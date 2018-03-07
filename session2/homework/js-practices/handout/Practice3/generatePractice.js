@@ -33,8 +33,12 @@ function generate(testLengthArray) {
           break;
         case 3:
           target = input[randomInterger(1,input.length - 2)]
-      };
+      }
       output = search(input,target)
+      objects.push({ "input":input, "target":target, "output":output});
+    } else {
+      target = input[randomInterger(input.length-1)];
+      output = search(input,target);
       objects.push({ "input":input, "target":target, "output":output});
     };
   };

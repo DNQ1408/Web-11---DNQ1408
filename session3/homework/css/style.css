@@ -1,0 +1,38 @@
+.header, .nav, .main, .aside, .footer{
+  text-align: center;
+  font-weight: bold;
+  text-indent: 0;
+}
+.header {
+  background-color: #0000ff;
+}
+
+.nav {
+  background-color: #800080;
+}
+
+.main {
+  background-color: #ffd700;
+  display: inline-block;
+  width: 70%;
+  height: 390px;
+  margin: 0px;
+  position: relative;
+  float: left;
+}
+.clearfix{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.aside {
+  background-color: #808080;
+  float: right;
+  width: 30%;
+  height: 390px;
+}
+
+.footer {
+  background-color: #00ffff;
+}

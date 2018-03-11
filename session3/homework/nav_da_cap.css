@@ -20,6 +20,7 @@
 .menu span:hover{
   background-color: #9CD08F;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .menu_vertical{
@@ -33,9 +34,11 @@
 }
 span:hover > .menu_vertical{
   display: flex;
+  cursor: pointer;
 }
 span:hover > .side_menu{
   position: absolute;
   top: 0px;
   left: 100px;
+  cursor: pointer;
 }

@@ -1,0 +1,23 @@
+#side_bar{
+  display: flex;
+  font-weight: bold;
+  width: 100px;
+  height: 90px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 40%;
+  right: 20px;
+  background-color: #756e6e;
+  border-radius: 10%;
+
+}
+#side_bar > a{
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+  width: 100px;
+  position: relative;
+  color: #FFFFFF;
+}
